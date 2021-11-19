@@ -7,7 +7,7 @@
 #include <sys/wait.h>
 #define PORT 8080 
 int main(int argc, char const *argv[]) 
-{
+{ 
     printf("Child created...reading from client\n");
     //setuid(65534); 
     /*user - nobody(uid - 65534), current_user(uid -1000)
